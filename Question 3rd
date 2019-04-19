@@ -23,8 +23,6 @@ performance by providing the waiting time for process, turnaround time for proce
 */
 
 
-
-
 #include<stdio.h>
 #include<string.h>
 #include<unistd.h>
