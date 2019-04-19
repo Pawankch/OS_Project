@@ -46,7 +46,7 @@ void main()
         ft[i]=st[i]+burst[i];
         turn_a[i]=ft[i]-ar_t[i];
         tot_wt+=wt[i];
-        tot_ta+=ta[i];
+        tot_ta+=turn_a[i];
     }
     avg_wt=(float)tot_wt/n;
     avg_ta=(float)tot_ta/n;
